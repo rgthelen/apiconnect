@@ -1,0 +1,21 @@
+{
+  "Store": {
+    "number": "121212251", 
+    "Address": "555 CVS Way, Boston, MA 00232", 
+    "Manager": [
+      {
+        "Name": "Rachel Maddow", 
+        "Phone": "222-222-3333"
+      }, 
+      {
+        "Hours": [
+          "0800", 
+          "2200"
+        ], 
+        "StoreID": "11122414", 
+        "Doorcode": "aslkdfjalskjals"
+      }
+    ], 
+    "PharmacyNumber": "223-233-3333"
+  }
+}
