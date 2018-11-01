@@ -1,0 +1,21 @@
+{
+    "Welcome": {
+        "To": "LabCorp",
+		"Enjoy": {
+            "Our Studio": "Of Design",
+			"Topics": {
+                "APIC": {
+                    "Timeframe": "Future",
+					"DataPower": "Future",
+					"DPOD": "DataPower Operations Dashbaord",
+					"Speaker": "Rob",
+					"Spearker": "Fernando",
+					"Our Commitment": {
+                        "To you": "Be Labcorp's partner as they transform their API Strtegy": ["Now", "Future"]
+                    },
+					"How": "DataPower + APIC"
+                }
+            }
+        }
+    }
+}
