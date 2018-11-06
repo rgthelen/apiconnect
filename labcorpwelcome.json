@@ -1,17 +1,17 @@
 {
     "Welcome": {
-        "To": "LabCorp",
+        "To": "Tech Sales",
 		"Enjoy": {
-            "Our Studio": "Of Design",
+            "Our Demo": "Of API Connect",
 			"Topics": {
                 "APIC": {
                     "Timeframe": "Future",
 					"DataPower": "Future",
 					"DPOD": "DataPower Operations Dashbaord",
 					"Speaker": "Rob",
-					"Spearker": "Fernando",
+					"Speaker": "Joe",
 					"Our Commitment": {
-                        "To you": "Be Labcorp's partner as they transform their API Strtegy": ["Now", "Future"]
+                        "To you": "Show you cool stuff!": ["Now", "Future"]
                     },
 					"How": "DataPower + APIC"
                 }
