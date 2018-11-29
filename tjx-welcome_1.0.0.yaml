@@ -1,0 +1,63 @@
+swagger: '2.0'
+info:
+  title: TJX Welcome
+  x-ibm-name: tjx-welcome
+  version: 1.0.0
+schemes:
+  - https
+basePath: /tjx-welcome
+securityDefinitions:
+  clientIdHeader:
+    type: apiKey
+    in: header
+    name: X-IBM-Client-Id
+x-ibm-configuration:
+  phase: realized
+  testable: true
+  enforced: true
+  properties:
+    target-url:
+      value: >-
+        https://raw.githubusercontent.com/rgthelen/apiconnect/master/TJXwelcome.json
+      description: URL of the proxy policy
+      encoded: false
+  cors:
+    enabled: true
+  activity-log:
+    enabled: true
+    error-content: header
+    success-content: activity
+  application-authentication:
+    certificate: false
+  assembly:
+    execute:
+      - invoke:
+          version: 2.0.0
+          title: invoke
+          header-control:
+            type: blacklist
+            values: []
+          parameter-control:
+            type: whitelist
+            values: []
+          timeout: 60
+          verb: GET
+          cache-response: protocol
+          cache-ttl: 900
+          stop-on-error: []
+          target-url: $(target-url)
+    catch: []
+  gateway: datapower-api-gateway
+  type: rest
+paths:
+  /hello:
+    get:
+      responses:
+        '200':
+          description: Good!
+          schema:
+            type: integer
+      consumes: []
+      produces: []
+      parameters: []
+    parameters: []
