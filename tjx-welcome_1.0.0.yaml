@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
-  title: TJX Welcome
-  x-ibm-name: tjx-welcome
+  title: TJX Welcome CICD
+  x-ibm-name: tjx-welcome-cicd
   version: 1.0.0
 schemes:
   - https
-basePath: /tjx-welcome
+basePath: /tjx-welcomecicd
 securityDefinitions:
   clientIdHeader:
     type: apiKey
