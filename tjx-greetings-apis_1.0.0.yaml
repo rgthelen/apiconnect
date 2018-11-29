@@ -1,10 +1,17 @@
+TJX WelcomeCICD1.0.0:
+    name: 'tjx-welcome-cicd:1.0.0'
+
+
+
+
+
 info:
   version: 1.0.0
   title: TJX CICD Greetings APIs
   name: tjx-greetings-apis-cidc
 apis:
-  TJX WelcomeCICD1.0.0:
-    name: 'tjx-welcome:1.0.0-cicd'
+  TJX Welcome CICD1.0.0:
+    name: 'tjx-welcome-cicd:1.0.0'
 gateways:
   - datapower-api-gateway
 product: 1.0.0
