@@ -1,10 +1,3 @@
-TJX WelcomeCICD1.0.0:
-    name: 'tjx-welcome-cicd:1.0.0'
-
-
-
-
-
 info:
   version: 1.0.0
   title: TJX CICD Greetings APIs
