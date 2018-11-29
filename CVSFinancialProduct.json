@@ -1,8 +1,8 @@
 {
   "info": {
     "version": "1.0.0",
-    "title": "CVS Financial APIs",
-    "name": "cvs-financial-apis"
+    "title": "TJX Financial APIs Product",
+    "name": "TJX-financial-apis"
   },
   "gateways": [
     "datapower-gateway"
