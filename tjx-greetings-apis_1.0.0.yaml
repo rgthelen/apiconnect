@@ -1,0 +1,29 @@
+info:
+  version: 1.0.0
+  title: TJX Greetings APIs
+  name: tjx-greetings-apis
+apis:
+  TJX Welcome1.0.0:
+    name: 'tjx-welcome:1.0.0'
+gateways:
+  - datapower-api-gateway
+product: 1.0.0
+visibility:
+  view:
+    enabled: true
+    type: public
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: authenticated
+    tags: []
+    orgs: []
+plans:
+  default:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limit:
+      value: 100/hour
+      hard-limit: false
