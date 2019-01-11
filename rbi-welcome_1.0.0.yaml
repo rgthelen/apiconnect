@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
-  title: TJX Welcome CICD
-  x-ibm-name: tjx-welcome-cicd
+  title: RBI Welcome CICD
+  x-ibm-name: rbi-welcome-cicd
   version: 1.0.0
 schemes:
   - https
-basePath: /tjx-welcomecicd
+basePath: /rbi-welcomecicd
 securityDefinitions:
   clientIdHeader:
     type: apiKey
@@ -18,7 +18,7 @@ x-ibm-configuration:
   properties:
     target-url:
       value: >-
-        https://raw.githubusercontent.com/rgthelen/apiconnect/master/TJXwelcome.json
+        https://raw.githubusercontent.com/rgthelen/apiconnect/master/RBIwelcome.json
       description: URL of the proxy policy
       encoded: false
   cors:
