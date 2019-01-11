@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "TJX Finance APIs",    
+    "title": "RBI Finance API",    
     "version": "1.0.0",
-    "description": "TJX Finance APIs for Internal use.  API resources related to the financial industry.\n\nYou may download the swagger.json definition to use in your API Management demos.\n\nOptionally, you can obtain the [source code](https://hub.jazz.net/git/bakert/apim-banka) and run it locally."
+    "description": "RBI Finance APIs for Internal use.  API resources related to the financial industry.\n\nYou may download the swagger.json definition to use in your API Management demos.\n\nOptionally, you can obtain the [source code](https://hub.jazz.net/git/bakert/apim-banka) and run it locally."
   },
   "schemes": [
     "https"
