@@ -1,8 +1,8 @@
 {
   "info": {
     "version": "1.0.0",
-    "title": "TJX Financial APIs Product",
-    "name": "TJX-financial-apis"
+    "title": "RBI Financial APIs Product",
+    "name": "RBI-financial-apis"
   },
   "gateways": [
     "datapower-gateway"
