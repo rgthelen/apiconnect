@@ -1,6 +1,6 @@
 {
     "Welcome": {
-        "To": "TJX",
+        "To": "RBI",
 		"Enjoy": {
             "Our Demo": "Of API Connect",
 			"Topics": {
@@ -8,8 +8,8 @@
                     "Timeframe": "Future",
 					"DataPower": "Future",
 					"DPOD": "DataPower Operations Dashbaord",
-					"Speaker": "Rob",
-					"Speaker": "Ozair",
+					"Speaker": "Newton",
+					"Speaker": "Sajan",
 					"Our Commitment": {
                         "To you": "Show you cool stuff!": ["Now", "Future"]
                     },
