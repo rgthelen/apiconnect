@@ -1,10 +1,10 @@
 info:
   version: 1.0.0
-  title: TJX CICD Greetings APIs
-  name: tjx-greetings-apis-cidc
+  title: RBI CICD Greetings APIs
+  name: RBI-greetings-apis-cidc
 apis:
   TJX Welcome CICD1.0.0:
-    name: 'tjx-welcome-cicd:1.0.0'
+    name: 'RBI-welcome-cicd:1.0.0'
 gateways:
   - datapower-api-gateway
 product: 1.0.0
