@@ -1,0 +1,33 @@
+{
+  "customers": [
+    {
+      "gold": [
+        {
+          "name": "George Washington",
+          "year": 1789,
+          "age": 57,
+          "creditcard": "4242-9999-1111-3333",
+          "ssn": "332-79-9005"
+        }
+      ]
+    },
+    {
+      "silver": [
+        {
+          "name": "John Adams",
+          "year": 1797,
+          "age": 62,
+          "creditcard": "2342-0038-8909-1121",
+          "ssn": "322-34-9023"
+        },
+        {
+          "name": "Thomas Jefferson",
+          "year": 1801,
+          "age": 58,
+          "creditcard": "4553-2434-4539-8348",
+          "ssn": "679-22-6605"
+        }
+      ]
+    }
+  ]
+}
